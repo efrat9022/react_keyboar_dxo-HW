@@ -1,0 +1,18 @@
+h1 {
+    font-size: 48px;
+    color: #1565c0; /* כחול כהה */
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
